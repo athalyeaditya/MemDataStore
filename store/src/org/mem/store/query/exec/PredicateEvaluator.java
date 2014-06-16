@@ -24,21 +24,15 @@ public interface PredicateEvaluator {
     public boolean addChildPredicateEvaluator(PredicateEvaluator childPredicateEvaluator);
 
     /**
-     * If all children are non-null
-     * @return
+     * If both left and right children are non-null return true.
      */
     public boolean isFull();
 
-    /**
-     *
-     * @param <P>
-     * @return
-     */
+
     public <P extends Predicate> P getWrappedPredicate();
 
     /**
      * Number of operands required by this evaluator
-     * @return
      */
     public int getNumOperands();
 }

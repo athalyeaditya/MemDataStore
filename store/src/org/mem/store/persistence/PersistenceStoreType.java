@@ -5,7 +5,8 @@ package org.mem.store.persistence;
  * User: aathalye
  * Date: 28/11/13
  * Time: 12:21 PM
- * To change this template use File | Settings | File Templates.
+ *
+ * Enum kept for future implementations to use.
  */
 public enum PersistenceStoreType {
 

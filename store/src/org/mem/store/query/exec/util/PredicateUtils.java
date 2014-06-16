@@ -11,7 +11,7 @@ import java.util.Iterator;
  * User: aathalye
  * Date: 11/12/13
  * Time: 3:43 PM
- * To change this template use File | Settings | File Templates.
+ *
  */
 public class PredicateUtils {
 
@@ -27,11 +27,6 @@ public class PredicateUtils {
 
     /**
      * Filter a collection from iterator based on a predicate.
-     * @param iterator
-     * @param predicate
-     * @param <P>
-     * @param <T>
-     * @return
      */
     public static <T, P extends Predicate<T>> Collection<T> createCollectionFromIterator(Iterator<T> iterator, P predicate) {
         Collection<T> tuplesCollection = new ArrayList<T>();
@@ -47,11 +42,6 @@ public class PredicateUtils {
 
     /**
      * The apache commons works only on modifiable collections.
-     * @param collection
-     * @param predicate
-     * @param <P>
-     * @param <T>
-     * @return
      */
     public static <T, P extends Predicate<T>> Collection<T> filter(Collection<T> collection, P predicate) {
         if (collection == null || predicate == null) {

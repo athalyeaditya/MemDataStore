@@ -18,8 +18,6 @@ public interface QueryExecutor {
     /**
      * Executes a query definition and returns a result set
      * Clients can query the result set using hasNext and next APIs.
-     * @param
-     * @return
      */
     public QueryResultSet executeQuery(Query<Predicate> query);
 }

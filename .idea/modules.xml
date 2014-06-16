@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$USER_HOME$/Downloads/guava-14.0.1-sources/Guava.iml" filepath="$USER_HOME$/Downloads/guava-14.0.1-sources/Guava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MemDataStore.iml" filepath="$PROJECT_DIR$/MemDataStore.iml" />
+      <module fileurl="file://$PROJECT_DIR$/store/store.iml" filepath="$PROJECT_DIR$/store/store.iml" />
+    </modules>
+  </component>
+</project>
+

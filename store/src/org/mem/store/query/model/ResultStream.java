@@ -15,21 +15,19 @@ public interface ResultStream {
 
     /**
      *
-     * @param tuples
-     * @param <T>
+     *
      */
     public <T extends MemoryTuple> void addMemoryTuples(T... tuples);
 
     /**
      *
-     * @param tuples
-     * @param <T>
+     *
      */
     public <T extends MemoryTuple> void addMemoryTuples(Collection<T> tuples);
 
     /**
      *
-     * @return
+     *
      */
     public <T extends MemoryTuple> Collection<T> getTuples();
 }

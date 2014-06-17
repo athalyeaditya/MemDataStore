@@ -5,7 +5,15 @@ package org.mem.store.query.model;
  * User: aathalye
  * Date: 10/12/13
  * Time: 10:30 AM
- * To change this template use File | Settings | File Templates.
+ *
+ * Logical predicate is obtained by performing logical
+ * operation between any 2 child predicates.
+ * e.g : a > 5 and b < 3
+ * <p>
+ *     Nesting of predicates can be obtained by combining
+ *     logical predicates using logical operators.
+ * </p>
+ *
  */
 public interface LogicalPredicate extends Predicate {
 

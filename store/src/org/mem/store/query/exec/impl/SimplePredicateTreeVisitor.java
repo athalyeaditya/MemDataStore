@@ -45,7 +45,7 @@ public class SimplePredicateTreeVisitor implements PredicateTreeVisitor {
         Predicate[] childPredicates = logicalPredicate.getChildPredicates();
         //Visit root
         processLogicalPredicate(logicalPredicate);
-        //There will be only 2 visit post order
+        //There will be only 2 visit pre order
         visitChild(childPredicates[0]);
         //Visit right
         visitChild(childPredicates[1]);

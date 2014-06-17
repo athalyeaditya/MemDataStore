@@ -10,7 +10,8 @@ import org.mem.store.query.model.impl.MutableResultStream;
  * User: aathalye
  * Date: 27/11/13
  * Time: 12:05 PM
- * To change this template use File | Settings | File Templates.
+ *
+ * In Memory simple representation of a query execution plan.
  */
 public class InMemoryQueryExecutionPlan implements QueryExecutionPlan {
 
